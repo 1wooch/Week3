@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Scientist{
+struct Scientist:Identifiable{
+    var id=UUID()
     var name:String
     var img:String
 }

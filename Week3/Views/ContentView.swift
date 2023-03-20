@@ -11,7 +11,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State var count = 1
-
     var body: some View {
         VStack {
            Text("Count = \(count)")
@@ -42,8 +41,29 @@ struct TextFieldView:View{
     }
 }
 
+struct ImageView:View{
+    @State var model:[Scientist]
+
+    var body:some View{
+        NavigationView{
+            VStack{
+                TitleView(Title: "Greatest Sceintists", img: "person.3.fill")
+                List{
+                    ForEach(model) { person in
+                        Text(person.name)
+                    }
+                }
+            }.padding()
+        }
+        
+    }
+    
+}
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        TextFieldView()
+        //TextFieldView()
+        ImageView(model: testData)
     }
 }

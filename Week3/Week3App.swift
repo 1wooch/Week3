@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Week3App: App {
+    @State var model = testData
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            ImageView(model: model)
         }
     }
 }
