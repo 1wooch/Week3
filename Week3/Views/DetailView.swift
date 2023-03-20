@@ -18,6 +18,10 @@ struct DetailView: View {
             Button("Cancel"){
                 displayName=person.name
             }
+            Image(person.img).resizable()
+                .scaledToFit()
+                .cornerRadius(20)
+                .shadow(color:.black,radius: 20,x:10,y:10)
             Spacer()
         }.onAppear{
             displayName=person.name
@@ -25,7 +29,7 @@ struct DetailView: View {
             
         }.onDisappear{
             person.name=displayName
-        }
+        }.padding()
         }
 }
 

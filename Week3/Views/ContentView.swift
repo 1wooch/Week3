@@ -52,7 +52,7 @@ struct ImageView:View{
                     ForEach($model) { $person in
                         
                         NavigationLink(destination: DetailView(person: $person)){
-                            Text(person.name)
+                            RowView(person: person)
                         }
                     }
                 }
