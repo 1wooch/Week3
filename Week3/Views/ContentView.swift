@@ -49,8 +49,11 @@ struct ImageView:View{
             VStack{
                 TitleView(Title: "Greatest Sceintists", img: "person.3.fill")
                 List{
-                    ForEach(model) { person in
-                        Text(person.name)
+                    ForEach($model) { $person in
+                        
+                        NavigationLink(destination: DetailView(person: $person)){
+                            Text(person.name)
+                        }
                     }
                 }
             }.padding()

@@ -20,6 +20,8 @@
 		08E830A429C8518E00934889 /* MyDoc.docc in Sources */ = {isa = PBXBuildFile; fileRef = 08E830A229C8518E00934889 /* MyDoc.docc */; };
 		08E830A829C863E600934889 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E830A729C863E600934889 /* TitleView.swift */; };
 		08E830A929C863E600934889 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E830A729C863E600934889 /* TitleView.swift */; };
+		08E830AB29C8681500934889 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E830AA29C8681500934889 /* DetailView.swift */; };
+		08E830AC29C8681500934889 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E830AA29C8681500934889 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		08E8309E29C8484500934889 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		08E830A229C8518E00934889 /* MyDoc.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyDoc.docc; sourceTree = "<group>"; };
 		08E830A729C863E600934889 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		08E830AA29C8681500934889 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,7 @@
 			children = (
 				08E8307629C8476600934889 /* ContentView.swift */,
 				08E830A729C863E600934889 /* TitleView.swift */,
+				08E830AA29C8681500934889 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E8307729C8476600934889 /* ContentView.swift in Sources */,
+				08E830AB29C8681500934889 /* DetailView.swift in Sources */,
 				08E830A329C8518E00934889 /* MyDoc.docc in Sources */,
 				08E8307529C8476600934889 /* Week3App.swift in Sources */,
 				08E8309F29C8484500934889 /* DataModel.swift in Sources */,
@@ -300,6 +305,7 @@
 				08E8308629C8476700934889 /* Week3Tests.swift in Sources */,
 				08E830A029C8484500934889 /* DataModel.swift in Sources */,
 				08E830A429C8518E00934889 /* MyDoc.docc in Sources */,
+				08E830AC29C8681500934889 /* DetailView.swift in Sources */,
 				08E830A929C863E600934889 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
