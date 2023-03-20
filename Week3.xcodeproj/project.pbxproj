@@ -16,6 +16,8 @@
 		08E8309229C8476700934889 /* Week3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8309129C8476700934889 /* Week3UITestsLaunchTests.swift */; };
 		08E8309F29C8484500934889 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8309E29C8484500934889 /* DataModel.swift */; };
 		08E830A029C8484500934889 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8309E29C8484500934889 /* DataModel.swift */; };
+		08E830A329C8518E00934889 /* MyDoc.docc in Sources */ = {isa = PBXBuildFile; fileRef = 08E830A229C8518E00934889 /* MyDoc.docc */; };
+		08E830A429C8518E00934889 /* MyDoc.docc in Sources */ = {isa = PBXBuildFile; fileRef = 08E830A229C8518E00934889 /* MyDoc.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		08E8308F29C8476700934889 /* Week3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3UITests.swift; sourceTree = "<group>"; };
 		08E8309129C8476700934889 /* Week3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		08E8309E29C8484500934889 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		08E830A229C8518E00934889 /* MyDoc.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyDoc.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 				08E8307829C8476700934889 /* Assets.xcassets */,
 				08E8307A29C8476700934889 /* Preview Content */,
 				08E8309E29C8484500934889 /* DataModel.swift */,
+				08E830A229C8518E00934889 /* MyDoc.docc */,
 			);
 			path = Week3;
 			sourceTree = "<group>";
@@ -262,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E8307729C8476600934889 /* ContentView.swift in Sources */,
+				08E830A329C8518E00934889 /* MyDoc.docc in Sources */,
 				08E8307529C8476600934889 /* Week3App.swift in Sources */,
 				08E8309F29C8484500934889 /* DataModel.swift in Sources */,
 			);
@@ -273,6 +278,7 @@
 			files = (
 				08E8308629C8476700934889 /* Week3Tests.swift in Sources */,
 				08E830A029C8484500934889 /* DataModel.swift in Sources */,
+				08E830A429C8518E00934889 /* MyDoc.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
