@@ -12,9 +12,9 @@ struct RowView: View {
     
     var body: some View {
         HStack{
-            Image(person.img).frame(width: 30,height: 30).padding()
-                .clipShape(Circle())
-                .shadow(radius: 20)
+            Image(person.img)
+                .resizable()
+                .frame(width: 30,height:30).padding().clipShape(Circle()).shadow(radius: 20)
             Spacer()
             Text(person.name)
         }.padding()
